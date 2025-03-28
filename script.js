@@ -41,3 +41,13 @@ function showFact() {
     ];
     document.getElementById("fact").innerText = facts[Math.floor(Math.random() * facts.length)];
 }
+function openVideo() {
+    let videoId = "YOUR_VIDEO_ID";  // Replace with your actual video ID
+    document.getElementById("youtubeFrame").src = "https://www.youtube.com/embed/" + videoId;
+    document.getElementById("videoModal").style.display = "block";
+}
+
+function closeVideo() {
+    document.getElementById("videoModal").style.display = "none";
+    document.getElementById("youtubeFrame").src = ""; // Stop video when closed
+}
