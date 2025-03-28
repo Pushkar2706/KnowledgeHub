@@ -53,3 +53,9 @@ footer {
     color: white;
     padding: 10px;
 }
+
+.email-link {
+    color: green;  /* Change color */
+    font-weight: bold; /* Make it bold */
+    text-decoration: none; /* Remove underline */
+}
